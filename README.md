@@ -20,7 +20,7 @@ Readme
     <img src="./src/assets/imagemdoprojeto.png" alt="Exemplo de Imagem" width="400px">
 </p>
 
-<h2 id="started">📌 Sobre</h2>
+<h2 id="about">📌 Sobre</h2>
 
 Este é um aplicativo de previsão do tempo desenvolvido em Angular. O aplicativo permite que os usuários busquem informações meteorológicas de diferentes cidades usando a API do OpenWeatherMap.
 
