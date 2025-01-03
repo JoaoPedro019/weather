@@ -1,27 +1,77 @@
-# WeatherApp
+Readme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
+[PROJECT__URL]: https://github
 
-## Development server
+<h1 align="center" style="font-weight: bold;">Weather App 💻</h1>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![angular][ANGULAR__BADGE]
+![typescript][TYPESCRIPT__BADGE]
 
-## Code scaffolding
+<p align="center">
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Começando</a> • 
+  <a href="#started">Rotas do App</a> • 
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center">
+    <img src="./src/assets/imagemdoprojeto.png" alt="Exemplo de Imagem" width="400px">
+</p>
 
-## Build
+<h2 id="started">📌 Sobre</h2>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Este é um aplicativo de previsão do tempo desenvolvido em Angular. O aplicativo permite que os usuários busquem informações meteorológicas de diferentes cidades usando a API do OpenWeatherMap.
 
-## Running unit tests
+<h4>Funcionalidades</h4>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<b>Busca de Previsão do Tempo:</b>
+Os usuários podem inserir o nome de uma cidade e obter informações meteorológicas atualizadas, como temperatura, umidade e condições climáticas.
 
-## Running end-to-end tests
+<b>Interface Responsiva:</b>
+A interface do usuário é responsiva e se adapta a diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis e desktops.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<b>Ícones de Busca:</b>
+Inclui ícones de busca para melhorar a experiência do usuário.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h4>Tecnologias Utilizadas</h4>
+
+- <b>Angular:</b> Framework principal para desenvolvimento do frontend.
+
+- <b>RxJS:</b> Biblioteca para programação reativa, utilizada para gerenciar requisições assíncronas.
+
+- <b>OpenWeatherMap API:</b> API utilizada para obter dados meteorológicos.
+
+- <b>SCSS:</b> Pré-processador CSS utilizado para estilização.
+
+[![project][PROJECT__BADGE]][PROJECT__URL]
+
+<h2 id="started">🚀 Começando</h2>
+
+<h3>Pré-requisitos</h3>
+
+- [NodeJS](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [Angular CLI](https://angular.io/cli)
+
+<h3>Clonando</h3>
+
+```bash
+git clone https://github.com/JoaoPedro019/weather
+```
+
+<h3>Iniciando</h3>
+
+```bash
+cd weather-app
+npm install
+ng serve
+```
+
+<h2 id="routes">📍 Rotas da Aplicação</h2>
+
+| rota               | descrição                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/weather</kbd>     | página com card de informções climaticas e uma barra de pesquisa
